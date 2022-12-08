@@ -1,0 +1,35 @@
+{
+  "products": [
+    {
+      "name": "Mì Trộn Indomie",
+      "image": "https://images.foody.vn/res/g102/1017853/prof/s640x400/foody-upload-api-foody-mobile-1fa8fdf2-0177-476d-8-200424095302.jpg",
+      "price": "50000",
+      "id": 1
+    },
+    {
+      "name": "Xôi Hiệp Hòa",
+      "price": "66000",
+      "image": "https://images.foody.vn/res/g2/19069/prof/s640x400/foody-mobile-xoi-ran2-jpg-227-635775001980948985.jpg",
+      "id": 2
+    },
+    {
+      "name": "Gà Luộc & Gà Ủ Muối",
+      "price": "35000",
+      "image": "https://images.foody.vn/res/g106/1058056/prof/s640x400/foody-upload-api-foody-mobile-110-201202111848.jpg",
+      "id": 3
+    },
+    {
+      "name": "Go Pizza",
+      "price": "50000",
+      "image": "https://images.foody.vn/res/g65/647297/prof/s640x400/file_restaurant_photo_pggt_16324-9f0e4b07-210924114425.jpg",
+      "id": 4
+    },
+    {
+      "name": "Cơm Rang Dưa Bò Bà Dung",
+      "price": "20000",
+      "image": "https://images.foody.vn/res/g5/47638/prof/s640x400/file_restaurant_photo_mrpu_16247-5e780a04-210627105504.jpg",
+      "id": 5
+    }
+  ],
+  "orders": []
+}

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <!-- Start Navigation -->
+    <nav
+      class="navbar navbar-expand-lg bg-light navbar-light shadow text-primary"
+      id="nav-container"
+    >
+      <!-- <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img
+            src="https://media.istockphoto.com/id/981368726/vector/restaurant-food-drinks-logo-fork-knife-background-vector-image.jpg?s=612x612&w=0&k=20&c=9M26CBkCyEBqUPs3Ls5QCjYLZrB9sxwrSFmnAmNCopI="
+            alt=""
+            width="60"
+            height="50"
+            class="rounded-circle"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 h6">
+            <li class="nav-item active">
+              <a href="index.html" class="nav-link">Trang chủ</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Thông tin cá nhân</a>
+            </li>
+            <li class="nav-item">
+              <a href="cart.html" class="nav-link">Giỏ hàng</a>
+            </li>
+          </ul>
+          <div class="d-flex justify-content-center align-items-center">
+            <a href="register.html" class="nav-link fw-bold">Đăng ký</a>
+            <a href="login.html" class="nav-link fw-bold">Đăng nhập</a>
+          </div>
+        </div>
+      </div> -->
+    </nav>
+    <!-- End navigation -->
+
+    <!-- Container  -->
+    <div>
+      <div class="container bg-light shadow mt-3" id="add-container">
+        <div class="header d-flex justify-content-between align-items-center">
+          <h1 class="mt-3">Thông tin cá nhân</h1>
+        </div>
+        <hr />
+        <div class="container-data" id="user-info-container">
+          <!-- <div class="row">
+            <div class="col-6">
+              <div class="my-3">
+                <label class="mb-0" for="usernameInput">Tên đăng nhập:</label>
+                <input
+                  id="usernameInput"
+                  type="text"
+                  class="form-control input-group"
+                  name="name"
+                  placeholder="${localStorage.getItem('username')}"
+                />
+              </div>
+              <div class="my-3">
+                <label class="mb-0" for="phoneInput">Số điện thoại:</label>
+                <input
+                  id="phoneInput"
+                  type="text"
+                  class="form-control input-group"
+                  name="price"
+                />
+              </div>
+              <div class="my-3">
+                <label class="mb-0" for="addressInput">Địa chỉ:</label>
+                <input
+                  id="addressInput"
+                  type="text"
+                  class="form-control input-group"
+                  name="image"
+                />
+              </div>
+              <div class="my-3">
+                <label class="mb-0" for="emailInput">Email:</label>
+                <input
+                  id="emailInput"
+                  type="text"
+                  class="form-control input-group"
+                  name="image"
+                />
+              </div>
+              <div class="my-3 d-flex">
+                <p class="mb-0 me-3">Giới tính:</p>
+                <div id="set-gender" class="">
+                  <input id="set_male" type="radio" name="set_gender" />
+                  <label for="set_male" class="me-2">Nam</label>
+                  <input id="set_female" type="radio" name="set_gender" />
+                  <label for="set_female" class="me-2">Nữ</label>
+                  <input
+                    id="set_other"
+                    type="radio"
+                    name="set_gender"
+                    checked
+                  />
+                  <label for="set_other">All</label>
+                </div>
+              </div>
+              <div class="my-3">
+                <label class="mb-0" for="birthInput">Ngày sinh:</label>
+                <input
+                  id="birthInput"
+                  type="date"
+                  class="form-control input-group"
+                  name="image"
+                />
+              </div>
+              <div class="my-3">
+                <label class="mb-0" for="avatarInput">Ảnh đại diện:</label>
+                <input
+                  id="avatarInput"
+                  type="text"
+                  class="form-control input-group"
+                  name="image"
+                  placeholder="Điền link hình ảnh"
+                />
+              </div>
+            </div>
+            <div class="col-6 d-flex justify-content-center align-items-center">
+              <img src="https://t4.ftcdn.net/jpg/03/59/58/91/360_F_359589186_JDLl8dIWoBNf1iqEkHxhUeeOulx0wOC5.jpg" alt="" class="img-fluid rounded-circle">
+            </div> -->
+          </div>
+
+          <!-- <div class="my-3">
+            <p class="mb-0">Tên đăng nhập:</p>
+            <input type="text" class="form-control input-group" name="name" placeholder="${localStorage.getItem('username')}"/>
+          </div>
+          <div class="my-3">
+            <p class="mb-0">Số điện thoại:</p>
+            <input type="text" class="form-control input-group" name="price" />
+          </div>
+          <div class="my-3">
+            <p class="mb-0">Địa chỉ:</p>
+            <input type="text" class="form-control input-group" name="image" />
+          </div> -->
+          <button class="btn btn-primary btn-lg mb-3 save-add-button" id="save-user-info">
+            Lưu
+          </button>
+        </div>
+      </div>
+
+      <div id="overlay" class="d-none">
+        <div
+          class="alert alert-success alert-dismissible fade show"
+          role="alert"
+        >
+          <strong>Lưu dữ liệu thành công!</strong>
+        </div>
+      </div>
+  
+      <div id="overlay1" class="d-none">
+        <div
+          class="alert alert-danger alert-dismissible fade show"
+          role="alert"
+        >
+          <strong>Lưu dữ liệu thất bại!</strong> Vui lòng kiểm tra lại
+        </div>
+      </div>
+    </div>
+
+
+    <script src="js/userinfo.js"></script>
+    <script src="js/display.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>

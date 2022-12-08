@@ -1,0 +1,13 @@
+C:\MyProject\Restaurant.WebApi\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+C:\MyProject\Restaurant.WebApi\Core\bin\Debug\netcoreapp3.1\Core.dll
+C:\MyProject\Restaurant.WebApi\Core\bin\Debug\netcoreapp3.1\Core.pdb
+C:\MyProject\Restaurant.WebApi\Core\bin\Debug\netcoreapp3.1\Domain.dll
+C:\MyProject\Restaurant.WebApi\Core\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\MyProject\Restaurant.WebApi\Core\obj\Debug\netcoreapp3.1\Core.csproj.AssemblyReference.cache
+C:\MyProject\Restaurant.WebApi\Core\obj\Debug\netcoreapp3.1\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyProject\Restaurant.WebApi\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+C:\MyProject\Restaurant.WebApi\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+C:\MyProject\Restaurant.WebApi\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+C:\MyProject\Restaurant.WebApi\Core\obj\Debug\netcoreapp3.1\Core.csproj.CopyComplete
+C:\MyProject\Restaurant.WebApi\Core\obj\Debug\netcoreapp3.1\Core.dll
+C:\MyProject\Restaurant.WebApi\Core\obj\Debug\netcoreapp3.1\Core.pdb

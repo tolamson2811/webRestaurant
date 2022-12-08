@@ -1,0 +1,10 @@
+C:\MyProject\Restaurant.WebApi\Domain.Shared\bin\Debug\netcoreapp3.1\Domain.Shared.deps.json
+C:\MyProject\Restaurant.WebApi\Domain.Shared\bin\Debug\netcoreapp3.1\Domain.Shared.dll
+C:\MyProject\Restaurant.WebApi\Domain.Shared\bin\Debug\netcoreapp3.1\Domain.Shared.pdb
+C:\MyProject\Restaurant.WebApi\Domain.Shared\obj\Debug\netcoreapp3.1\Domain.Shared.csproj.AssemblyReference.cache
+C:\MyProject\Restaurant.WebApi\Domain.Shared\obj\Debug\netcoreapp3.1\Domain.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyProject\Restaurant.WebApi\Domain.Shared\obj\Debug\netcoreapp3.1\Domain.Shared.AssemblyInfoInputs.cache
+C:\MyProject\Restaurant.WebApi\Domain.Shared\obj\Debug\netcoreapp3.1\Domain.Shared.AssemblyInfo.cs
+C:\MyProject\Restaurant.WebApi\Domain.Shared\obj\Debug\netcoreapp3.1\Domain.Shared.csproj.CoreCompileInputs.cache
+C:\MyProject\Restaurant.WebApi\Domain.Shared\obj\Debug\netcoreapp3.1\Domain.Shared.dll
+C:\MyProject\Restaurant.WebApi\Domain.Shared\obj\Debug\netcoreapp3.1\Domain.Shared.pdb

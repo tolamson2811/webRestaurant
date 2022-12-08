@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/validate.css" />
+  </head>
+  <body>
+    <!-- Container  -->
+    <div class="container-login was-validated">
+      <div class="container-ac bg-light rounded-3 my-5 p-5">
+        <div class="row text-center">
+          <div class="col-lg-6 col-12">
+            <img
+              src="https://media.istockphoto.com/id/981368726/vector/restaurant-food-drinks-logo-fork-knife-background-vector-image.jpg?s=612x612&w=0&k=20&c=9M26CBkCyEBqUPs3Ls5QCjYLZrB9sxwrSFmnAmNCopI="
+              alt=""
+              class="rounded-circle img-fluid my-5"
+            />
+          </div>
+          <div
+            class="col-lg-6 col-12 d-flex justify-content-center flex-column"
+          >
+            <h1 class="mb-5">Đăng nhập</h1>
+            <form action="" method="POST" id="form-2">
+              <div class="form-group">
+                <label for="email" class="form-label">Tên tài khoản:</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="text"
+                  placeholder=""
+                  class="form-control1"
+                />
+                <span class="form-message"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="password" class="form-label">Mật khẩu:</label>
+                <input
+                  id="password"
+                  name="password"
+                  type="password"
+                  placeholder=""
+                  class="form-control1"
+                />
+                <span class="form-message"></span>
+              </div>
+
+              <button class="form-submit">Đăng nhập</button>
+              <div
+                class="mt-3 d-flex justify-content-center align-items-center flex-column flex-lg-row"
+              >
+                <h5 class="me-lg-3">Chưa có tài khoản?</h5>
+                <h5>
+                  <a href="register.html" class="text-decoration-none"
+                    >Đăng ký</a
+                  >
+                </h5>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Overlay  -->
+    <div id="overlay" class="d-none">
+      <div
+        class="alert alert-danger alert-dismissible fade show"
+        role="alert"
+      >
+        <strong>Đăng nhập thất bại!</strong> Bạn đã nhập sai tài khoản hoặc mật khẩu.
+      </div>
+    </div>
+  </div>
+    <!-- Container  -->
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        Validator({
+          form: "#form-2",
+          formGroupSelector: ".form-group",
+          errorSelector: ".form-message",
+          rules: [
+            Validator.isRequired(
+              "#email",
+              "Vui lòng nhập tên tài khoản của bạn"
+            ),
+            Validator.minLength("#password", 6),
+          ],
+          onSubmit: function (data) {
+            var user = "";
+            // Call API
+            var content = {
+              username: data.email,
+              password: data.password,
+            };
+            var authLogin = "http://localhost:54634/api/Auth/login";
+            var options = {
+              method: "POST",
+              mode: "cors",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify(content),
+            };
+            fetch(authLogin, options)
+              .then((response) => response.json())
+              .then((content) => {
+                localStorage.setItem('username', content.userLogin.username)
+                localStorage.setItem('userRole', content.userLogin.role)
+                localStorage.setItem('userId', content.userLogin.userId)
+                location.replace('http://127.0.0.1:5500/index.html')
+              })
+              .catch(() => {
+                email.value = "";
+                password.value = "";
+                overlay.classList.remove("d-none");
+                setTimeout(() => {
+                  overlay.classList.add("d-none");
+                }, 2000);
+              })
+
+            // if (localStorage.getItem('userId') == null) {
+            //   // location.replace('http://127.0.0.1:5500/index.html')
+
+            // } else {
+            //   // console.log(localStorage.getItem('userId'));
+            //   // email.value = "";
+            //   // password.value = "";
+            //   // overlay.classList.remove("d-none");
+            //   // setTimeout(() => {
+            //   //   overlay.classList.add("d-none");
+            //   // }, 2000);
+            // }
+          },
+        });
+      });
+    </script>
+
+    <script>
+      localStorage.removeItem('username')
+      localStorage.removeItem('userRole')
+      localStorage.removeItem('userId')
+      localStorage.removeItem('total')
+      localStorage.removeItem('description')
+    </script>
+
+    <script src="js/validate.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>
