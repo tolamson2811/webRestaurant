@@ -24,3 +24,6 @@ WEB QUẢN LÍ CỬA HÀNG ĐỒ ĂN
 3. Database
 - Gồm 4 bảng: users, orders, orderdetails, foods
 ![image](https://user-images.githubusercontent.com/100157005/208150307-f523afe7-4e8f-4d59-9a90-6acbd6ebc71b.png)
+
+4. Demo
+https://drive.google.com/file/d/1eEoGLUWUYo2-ASSCyjlBx8_kmdfx-NgL/view?usp=sharing
