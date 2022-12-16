@@ -4,9 +4,9 @@ WEB QUẢN LÍ CỬA HÀNG ĐỒ ĂN
 - C# ASP .NET CORE WEB API
 - MySQL
 2. Chức năng của trang web
-  2.1. Đăng kí, đăng nhập
+ 2.1. Đăng kí, đăng nhập
    - Dùng JWT để xác thực
-  2.2. Chức năng của người dùng
+ 2.2. Chức năng của người dùng
    - Xem danh sách món ăn
    - Sửa đổi thông tin cá nhân
    - Đặt món
