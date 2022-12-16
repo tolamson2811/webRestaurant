@@ -5,7 +5,7 @@ WEB QUẢN LÍ CỬA HÀNG ĐỒ ĂN
 - MySQL
 2. Chức năng của trang web
   2.1. Đăng kí, đăng nhập
-   - Dùng JWT để xác thực.
+   - Dùng JWT để xác thực
   2.2. Chức năng của người dùng
    - Xem danh sách món ăn
    - Sửa đổi thông tin cá nhân
